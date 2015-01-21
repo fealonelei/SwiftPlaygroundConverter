@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF8386711A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = DF8386701A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme */; };
+		DF8386731A6FC3E100382510 /* SwiftPlaygroundConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8386721A6FC3E100382510 /* SwiftPlaygroundConverter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF83866B1A6FC3E100382510 /* SwiftPlaygroundConverter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPlaygroundConverter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF83866F1A6FC3E100382510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8386701A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SwiftPlaygroundConverter.xcscheme; path = SwiftPlaygroundConverter.xcodeproj/xcshareddata/xcschemes/SwiftPlaygroundConverter.xcscheme; sourceTree = SOURCE_ROOT; };
+		DF8386721A6FC3E100382510 /* SwiftPlaygroundConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlaygroundConverter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		DF8386631A6FC3E100382510 = {
+			isa = PBXGroup;
+			children = (
+				DF83866D1A6FC3E100382510 /* SwiftPlaygroundConverter */,
+				DF83866C1A6FC3E100382510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF83866C1A6FC3E100382510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF83866B1A6FC3E100382510 /* SwiftPlaygroundConverter.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF83866D1A6FC3E100382510 /* SwiftPlaygroundConverter */ = {
+			isa = PBXGroup;
+			children = (
+				DF8386721A6FC3E100382510 /* SwiftPlaygroundConverter.swift */,
+				DF83866E1A6FC3E100382510 /* Supporting Files */,
+			);
+			path = SwiftPlaygroundConverter;
+			sourceTree = "<group>";
+		};
+		DF83866E1A6FC3E100382510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF83866F1A6FC3E100382510 /* Info.plist */,
+				DF8386701A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF83866A1A6FC3E100382510 /* SwiftPlaygroundConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8386761A6FC3E100382510 /* Build configuration list for PBXNativeTarget "SwiftPlaygroundConverter" */;
+			buildPhases = (
+				DF8386681A6FC3E100382510 /* Sources */,
+				DF8386691A6FC3E100382510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPlaygroundConverter;
+			productName = SwiftPlaygroundConverter;
+			productReference = DF83866B1A6FC3E100382510 /* SwiftPlaygroundConverter.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8386641A6FC3E100382510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "___SLIGHTECH___";
+				TargetAttributes = {
+					DF83866A1A6FC3E100382510 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DF8386671A6FC3E100382510 /* Build configuration list for PBXProject "SwiftPlaygroundConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF8386631A6FC3E100382510;
+			productRefGroup = DF83866C1A6FC3E100382510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF83866A1A6FC3E100382510 /* SwiftPlaygroundConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8386691A6FC3E100382510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8386711A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8386681A6FC3E100382510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8386731A6FC3E100382510 /* SwiftPlaygroundConverter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF8386741A6FC3E100382510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		DF8386751A6FC3E100382510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		DF8386771A6FC3E100382510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SwiftPlaygroundConverter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		DF8386781A6FC3E100382510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SwiftPlaygroundConverter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8386671A6FC3E100382510 /* Build configuration list for PBXProject "SwiftPlaygroundConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8386741A6FC3E100382510 /* Debug */,
+				DF8386751A6FC3E100382510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8386761A6FC3E100382510 /* Build configuration list for PBXNativeTarget "SwiftPlaygroundConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8386771A6FC3E100382510 /* Debug */,
+				DF8386781A6FC3E100382510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8386641A6FC3E100382510 /* Project object */;
+}
