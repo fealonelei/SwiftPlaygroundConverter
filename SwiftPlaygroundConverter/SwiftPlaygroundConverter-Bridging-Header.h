@@ -4,3 +4,4 @@
 
 #import "NSView+Dumping.h"
 #import "findAllFiles.h"
+#import "XcodeEditor/XcodeEditor.h"
