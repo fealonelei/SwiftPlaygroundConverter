@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>101043B7-313D-416B-8F79-D054E9B8A508</string>
+	<string>93D797E5-C11D-4F2D-8F48-91A8D1C7A260</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SwiftPlaygroundConverter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A1FFA04F937E7A3F3889C6DC947FAB2BF8C47D92</key>
-		<string>github.com:fealonelei/SwiftPlaygroundConverter.git</string>
+		<string>https://github.com/fealonelei/SwiftPlaygroundConverter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SwiftPlaygroundConverter.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:fealonelei/SwiftPlaygroundConverter.git</string>
+	<string>https://github.com/fealonelei/SwiftPlaygroundConverter.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

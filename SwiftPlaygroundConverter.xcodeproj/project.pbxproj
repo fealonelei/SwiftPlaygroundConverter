@@ -7,87 +7,180 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF8386711A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = DF8386701A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme */; };
-		DF8386731A6FC3E100382510 /* SwiftPlaygroundConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8386721A6FC3E100382510 /* SwiftPlaygroundConverter.swift */; };
-		DF83867D1A6FC40A00382510 /* convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83867A1A6FC40A00382510 /* convert.swift */; };
-		DF83867E1A6FC40A00382510 /* findAllFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = DF83867C1A6FC40A00382510 /* findAllFiles.m */; };
-		DF8386811A6FC42000382510 /* NSView+Dumping.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8386801A6FC42000382510 /* NSView+Dumping.m */; };
-		DFC424101A70AB9E001C51FF /* XcodeEditor.framework in Resources */ = {isa = PBXBuildFile; fileRef = DFC4240F1A70AB9E001C51FF /* XcodeEditor.framework */; };
+		DF2466DA1A71FA7B0056190C /* SwiftPlaygroundConverter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = DF2466D91A71FA7B0056190C /* SwiftPlaygroundConverter.xcscheme */; };
+		DF2466DC1A71FA7B0056190C /* SwiftPlaygroundConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2466DB1A71FA7B0056190C /* SwiftPlaygroundConverter.swift */; };
+		DF2466E51A71FB040056190C /* NSView+Dumping.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466E41A71FB040056190C /* NSView+Dumping.m */; };
+		DF2466E91A71FB1C0056190C /* convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2466E61A71FB1C0056190C /* convert.swift */; };
+		DF2466EA1A71FB1C0056190C /* findAllFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466E81A71FB1C0056190C /* findAllFiles.m */; };
+		DF2467151A71FB2A0056190C /* XCKeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466F11A71FB2A0056190C /* XCKeyBuilder.m */; };
+		DF2467161A71FB2A0056190C /* XCAbstractDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466F41A71FB2A0056190C /* XCAbstractDefinition.m */; };
+		DF2467171A71FB2A0056190C /* XCBuildConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466F61A71FB2A0056190C /* XCBuildConfiguration.m */; };
+		DF2467181A71FB2A0056190C /* XCClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466F81A71FB2A0056190C /* XCClassDefinition.m */; };
+		DF2467191A71FB2A0056190C /* XCFileOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466FA1A71FB2A0056190C /* XCFileOperationQueue.m */; };
+		DF24671A1A71FB2A0056190C /* XCFrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466FC1A71FB2A0056190C /* XCFrameworkDefinition.m */; };
+		DF24671B1A71FB2A0056190C /* XCGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2466FE1A71FB2A0056190C /* XCGroup.m */; };
+		DF24671C1A71FB2A0056190C /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2467021A71FB2A0056190C /* XcodeMemberType.m */; };
+		DF24671D1A71FB2A0056190C /* XcodeSourceFileType.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2467041A71FB2A0056190C /* XcodeSourceFileType.m */; };
+		DF24671E1A71FB2A0056190C /* XCProject+SubProject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2467061A71FB2A0056190C /* XCProject+SubProject.m */; };
+		DF24671F1A71FB2A0056190C /* XCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2467081A71FB2A0056190C /* XCProject.m */; };
+		DF2467201A71FB2A0056190C /* XCSourceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24670A1A71FB2A0056190C /* XCSourceFile.m */; };
+		DF2467211A71FB2A0056190C /* XCSourceFileDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24670C1A71FB2A0056190C /* XCSourceFileDefinition.m */; };
+		DF2467221A71FB2A0056190C /* XCSubProjectDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24670E1A71FB2A0056190C /* XCSubProjectDefinition.m */; };
+		DF2467231A71FB2A0056190C /* XCTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2467101A71FB2A0056190C /* XCTarget.m */; };
+		DF2467241A71FB2A0056190C /* XCXibDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2467121A71FB2A0056190C /* XCXibDefinition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF83866B1A6FC3E100382510 /* SwiftPlaygroundConverter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPlaygroundConverter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF83866F1A6FC3E100382510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF8386701A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SwiftPlaygroundConverter.xcscheme; path = SwiftPlaygroundConverter.xcodeproj/xcshareddata/xcschemes/SwiftPlaygroundConverter.xcscheme; sourceTree = SOURCE_ROOT; };
-		DF8386721A6FC3E100382510 /* SwiftPlaygroundConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlaygroundConverter.swift; sourceTree = "<group>"; };
-		DF8386791A6FC40900382510 /* SwiftPlaygroundConverter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPlaygroundConverter-Bridging-Header.h"; sourceTree = "<group>"; };
-		DF83867A1A6FC40A00382510 /* convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convert.swift; sourceTree = "<group>"; };
-		DF83867B1A6FC40A00382510 /* findAllFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findAllFiles.h; sourceTree = "<group>"; };
-		DF83867C1A6FC40A00382510 /* findAllFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findAllFiles.m; sourceTree = "<group>"; };
-		DF83867F1A6FC42000382510 /* NSView+Dumping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Dumping.h"; sourceTree = "<group>"; };
-		DF8386801A6FC42000382510 /* NSView+Dumping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Dumping.m"; sourceTree = "<group>"; };
-		DFC4240F1A70AB9E001C51FF /* XcodeEditor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeEditor.framework; path = ../XcodeEditor/XcodeEditor.framework; sourceTree = "<group>"; };
+		DF2466D41A71FA7B0056190C /* SwiftPlaygroundConverter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPlaygroundConverter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2466D81A71FA7B0056190C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2466D91A71FA7B0056190C /* SwiftPlaygroundConverter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SwiftPlaygroundConverter.xcscheme; path = SwiftPlaygroundConverter.xcodeproj/xcshareddata/xcschemes/SwiftPlaygroundConverter.xcscheme; sourceTree = SOURCE_ROOT; };
+		DF2466DB1A71FA7B0056190C /* SwiftPlaygroundConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlaygroundConverter.swift; sourceTree = "<group>"; };
+		DF2466E21A71FB030056190C /* SwiftPlaygroundConverter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPlaygroundConverter-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF2466E31A71FB040056190C /* NSView+Dumping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Dumping.h"; sourceTree = "<group>"; };
+		DF2466E41A71FB040056190C /* NSView+Dumping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Dumping.m"; sourceTree = "<group>"; };
+		DF2466E61A71FB1C0056190C /* convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convert.swift; sourceTree = "<group>"; };
+		DF2466E71A71FB1C0056190C /* findAllFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findAllFiles.h; sourceTree = "<group>"; };
+		DF2466E81A71FB1C0056190C /* findAllFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findAllFiles.m; sourceTree = "<group>"; };
+		DF2466EF1A71FB2A0056190C /* XCEnumUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCEnumUtils.h; sourceTree = "<group>"; };
+		DF2466F01A71FB2A0056190C /* XCKeyBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyBuilder.h; sourceTree = "<group>"; };
+		DF2466F11A71FB2A0056190C /* XCKeyBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCKeyBuilder.m; sourceTree = "<group>"; };
+		DF2466F21A71FB2A0056190C /* XCMemoryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMemoryUtils.h; sourceTree = "<group>"; };
+		DF2466F31A71FB2A0056190C /* XCAbstractDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAbstractDefinition.h; sourceTree = "<group>"; };
+		DF2466F41A71FB2A0056190C /* XCAbstractDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAbstractDefinition.m; sourceTree = "<group>"; };
+		DF2466F51A71FB2A0056190C /* XCBuildConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCBuildConfiguration.h; sourceTree = "<group>"; };
+		DF2466F61A71FB2A0056190C /* XCBuildConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCBuildConfiguration.m; sourceTree = "<group>"; };
+		DF2466F71A71FB2A0056190C /* XCClassDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCClassDefinition.h; sourceTree = "<group>"; };
+		DF2466F81A71FB2A0056190C /* XCClassDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCClassDefinition.m; sourceTree = "<group>"; };
+		DF2466F91A71FB2A0056190C /* XCFileOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFileOperationQueue.h; sourceTree = "<group>"; };
+		DF2466FA1A71FB2A0056190C /* XCFileOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFileOperationQueue.m; sourceTree = "<group>"; };
+		DF2466FB1A71FB2A0056190C /* XCFrameworkDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFrameworkDefinition.h; sourceTree = "<group>"; };
+		DF2466FC1A71FB2A0056190C /* XCFrameworkDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFrameworkDefinition.m; sourceTree = "<group>"; };
+		DF2466FD1A71FB2A0056190C /* XCGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCGroup.h; sourceTree = "<group>"; };
+		DF2466FE1A71FB2A0056190C /* XCGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCGroup.m; sourceTree = "<group>"; };
+		DF2466FF1A71FB2A0056190C /* XcodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeEditor.h; sourceTree = "<group>"; };
+		DF2467001A71FB2A0056190C /* XcodeGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeGroupMember.h; sourceTree = "<group>"; };
+		DF2467011A71FB2A0056190C /* XcodeMemberType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeMemberType.h; sourceTree = "<group>"; };
+		DF2467021A71FB2A0056190C /* XcodeMemberType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeMemberType.m; sourceTree = "<group>"; };
+		DF2467031A71FB2A0056190C /* XcodeSourceFileType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeSourceFileType.h; sourceTree = "<group>"; };
+		DF2467041A71FB2A0056190C /* XcodeSourceFileType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeSourceFileType.m; sourceTree = "<group>"; };
+		DF2467051A71FB2A0056190C /* XCProject+SubProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCProject+SubProject.h"; sourceTree = "<group>"; };
+		DF2467061A71FB2A0056190C /* XCProject+SubProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCProject+SubProject.m"; sourceTree = "<group>"; };
+		DF2467071A71FB2A0056190C /* XCProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCProject.h; sourceTree = "<group>"; };
+		DF2467081A71FB2A0056190C /* XCProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCProject.m; sourceTree = "<group>"; };
+		DF2467091A71FB2A0056190C /* XCSourceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceFile.h; sourceTree = "<group>"; };
+		DF24670A1A71FB2A0056190C /* XCSourceFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSourceFile.m; sourceTree = "<group>"; };
+		DF24670B1A71FB2A0056190C /* XCSourceFileDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceFileDefinition.h; sourceTree = "<group>"; };
+		DF24670C1A71FB2A0056190C /* XCSourceFileDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSourceFileDefinition.m; sourceTree = "<group>"; };
+		DF24670D1A71FB2A0056190C /* XCSubProjectDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSubProjectDefinition.h; sourceTree = "<group>"; };
+		DF24670E1A71FB2A0056190C /* XCSubProjectDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSubProjectDefinition.m; sourceTree = "<group>"; };
+		DF24670F1A71FB2A0056190C /* XCTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTarget.h; sourceTree = "<group>"; };
+		DF2467101A71FB2A0056190C /* XCTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTarget.m; sourceTree = "<group>"; };
+		DF2467111A71FB2A0056190C /* XCXibDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCXibDefinition.h; sourceTree = "<group>"; };
+		DF2467121A71FB2A0056190C /* XCXibDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCXibDefinition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		DF8386631A6FC3E100382510 = {
+		DF2466CC1A71FA7B0056190C = {
 			isa = PBXGroup;
 			children = (
-				DF83866D1A6FC3E100382510 /* SwiftPlaygroundConverter */,
-				DF83866C1A6FC3E100382510 /* Products */,
+				DF2466D61A71FA7B0056190C /* SwiftPlaygroundConverter */,
+				DF2466D51A71FA7B0056190C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF83866C1A6FC3E100382510 /* Products */ = {
+		DF2466D51A71FA7B0056190C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF83866B1A6FC3E100382510 /* SwiftPlaygroundConverter.xcplugin */,
+				DF2466D41A71FA7B0056190C /* SwiftPlaygroundConverter.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF83866D1A6FC3E100382510 /* SwiftPlaygroundConverter */ = {
+		DF2466D61A71FA7B0056190C /* SwiftPlaygroundConverter */ = {
 			isa = PBXGroup;
 			children = (
-				DF8386721A6FC3E100382510 /* SwiftPlaygroundConverter.swift */,
-				DF83867A1A6FC40A00382510 /* convert.swift */,
-				DF83867B1A6FC40A00382510 /* findAllFiles.h */,
-				DF83867C1A6FC40A00382510 /* findAllFiles.m */,
-				DF83866E1A6FC3E100382510 /* Supporting Files */,
-				DFC4240B1A70AA65001C51FF /* Frameworks */,
+				DF2466DB1A71FA7B0056190C /* SwiftPlaygroundConverter.swift */,
+				DF2466E61A71FB1C0056190C /* convert.swift */,
+				DF2466E71A71FB1C0056190C /* findAllFiles.h */,
+				DF2466E81A71FB1C0056190C /* findAllFiles.m */,
+				DF2466D71A71FA7B0056190C /* Supporting Files */,
+				DF2466EB1A71FB2A0056190C /* XcodeEditor */,
 			);
 			path = SwiftPlaygroundConverter;
 			sourceTree = "<group>";
 		};
-		DF83866E1A6FC3E100382510 /* Supporting Files */ = {
+		DF2466D71A71FA7B0056190C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF83867F1A6FC42000382510 /* NSView+Dumping.h */,
-				DF8386801A6FC42000382510 /* NSView+Dumping.m */,
-				DF83866F1A6FC3E100382510 /* Info.plist */,
-				DF8386701A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme */,
-				DF8386791A6FC40900382510 /* SwiftPlaygroundConverter-Bridging-Header.h */,
+				DF2466E31A71FB040056190C /* NSView+Dumping.h */,
+				DF2466E41A71FB040056190C /* NSView+Dumping.m */,
+				DF2466D81A71FA7B0056190C /* Info.plist */,
+				DF2466D91A71FA7B0056190C /* SwiftPlaygroundConverter.xcscheme */,
+				DF2466E21A71FB030056190C /* SwiftPlaygroundConverter-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DFC4240B1A70AA65001C51FF /* Frameworks */ = {
+		DF2466EB1A71FB2A0056190C /* XcodeEditor */ = {
 			isa = PBXGroup;
 			children = (
-				DFC4240F1A70AB9E001C51FF /* XcodeEditor.framework */,
+				DF2466EE1A71FB2A0056190C /* Utils */,
+				DF2466F31A71FB2A0056190C /* XCAbstractDefinition.h */,
+				DF2466F41A71FB2A0056190C /* XCAbstractDefinition.m */,
+				DF2466F51A71FB2A0056190C /* XCBuildConfiguration.h */,
+				DF2466F61A71FB2A0056190C /* XCBuildConfiguration.m */,
+				DF2466F71A71FB2A0056190C /* XCClassDefinition.h */,
+				DF2466F81A71FB2A0056190C /* XCClassDefinition.m */,
+				DF2466F91A71FB2A0056190C /* XCFileOperationQueue.h */,
+				DF2466FA1A71FB2A0056190C /* XCFileOperationQueue.m */,
+				DF2466FB1A71FB2A0056190C /* XCFrameworkDefinition.h */,
+				DF2466FC1A71FB2A0056190C /* XCFrameworkDefinition.m */,
+				DF2466FD1A71FB2A0056190C /* XCGroup.h */,
+				DF2466FE1A71FB2A0056190C /* XCGroup.m */,
+				DF2466FF1A71FB2A0056190C /* XcodeEditor.h */,
+				DF2467001A71FB2A0056190C /* XcodeGroupMember.h */,
+				DF2467011A71FB2A0056190C /* XcodeMemberType.h */,
+				DF2467021A71FB2A0056190C /* XcodeMemberType.m */,
+				DF2467031A71FB2A0056190C /* XcodeSourceFileType.h */,
+				DF2467041A71FB2A0056190C /* XcodeSourceFileType.m */,
+				DF2467051A71FB2A0056190C /* XCProject+SubProject.h */,
+				DF2467061A71FB2A0056190C /* XCProject+SubProject.m */,
+				DF2467071A71FB2A0056190C /* XCProject.h */,
+				DF2467081A71FB2A0056190C /* XCProject.m */,
+				DF2467091A71FB2A0056190C /* XCSourceFile.h */,
+				DF24670A1A71FB2A0056190C /* XCSourceFile.m */,
+				DF24670B1A71FB2A0056190C /* XCSourceFileDefinition.h */,
+				DF24670C1A71FB2A0056190C /* XCSourceFileDefinition.m */,
+				DF24670D1A71FB2A0056190C /* XCSubProjectDefinition.h */,
+				DF24670E1A71FB2A0056190C /* XCSubProjectDefinition.m */,
+				DF24670F1A71FB2A0056190C /* XCTarget.h */,
+				DF2467101A71FB2A0056190C /* XCTarget.m */,
+				DF2467111A71FB2A0056190C /* XCXibDefinition.h */,
+				DF2467121A71FB2A0056190C /* XCXibDefinition.m */,
 			);
-			name = Frameworks;
+			path = XcodeEditor;
+			sourceTree = SOURCE_ROOT;
+		};
+		DF2466EE1A71FB2A0056190C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF2466EF1A71FB2A0056190C /* XCEnumUtils.h */,
+				DF2466F01A71FB2A0056190C /* XCKeyBuilder.h */,
+				DF2466F11A71FB2A0056190C /* XCKeyBuilder.m */,
+				DF2466F21A71FB2A0056190C /* XCMemoryUtils.h */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF83866A1A6FC3E100382510 /* SwiftPlaygroundConverter */ = {
+		DF2466D31A71FA7B0056190C /* SwiftPlaygroundConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF8386761A6FC3E100382510 /* Build configuration list for PBXNativeTarget "SwiftPlaygroundConverter" */;
+			buildConfigurationList = DF2466DF1A71FA7B0056190C /* Build configuration list for PBXNativeTarget "SwiftPlaygroundConverter" */;
 			buildPhases = (
-				DF8386681A6FC3E100382510 /* Sources */,
-				DF8386691A6FC3E100382510 /* Resources */,
+				DF2466D11A71FA7B0056190C /* Sources */,
+				DF2466D21A71FA7B0056190C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,68 +188,83 @@
 			);
 			name = SwiftPlaygroundConverter;
 			productName = SwiftPlaygroundConverter;
-			productReference = DF83866B1A6FC3E100382510 /* SwiftPlaygroundConverter.xcplugin */;
+			productReference = DF2466D41A71FA7B0056190C /* SwiftPlaygroundConverter.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF8386641A6FC3E100382510 /* Project object */ = {
+		DF2466CD1A71FA7B0056190C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "___SLIGHTECH___";
 				TargetAttributes = {
-					DF83866A1A6FC3E100382510 = {
+					DF2466D31A71FA7B0056190C = {
 						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
-			buildConfigurationList = DF8386671A6FC3E100382510 /* Build configuration list for PBXProject "SwiftPlaygroundConverter" */;
+			buildConfigurationList = DF2466D01A71FA7B0056190C /* Build configuration list for PBXProject "SwiftPlaygroundConverter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DF8386631A6FC3E100382510;
-			productRefGroup = DF83866C1A6FC3E100382510 /* Products */;
+			mainGroup = DF2466CC1A71FA7B0056190C;
+			productRefGroup = DF2466D51A71FA7B0056190C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF83866A1A6FC3E100382510 /* SwiftPlaygroundConverter */,
+				DF2466D31A71FA7B0056190C /* SwiftPlaygroundConverter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF8386691A6FC3E100382510 /* Resources */ = {
+		DF2466D21A71FA7B0056190C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFC424101A70AB9E001C51FF /* XcodeEditor.framework in Resources */,
-				DF8386711A6FC3E100382510 /* SwiftPlaygroundConverter.xcscheme in Resources */,
+				DF2466DA1A71FA7B0056190C /* SwiftPlaygroundConverter.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF8386681A6FC3E100382510 /* Sources */ = {
+		DF2466D11A71FA7B0056190C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF83867E1A6FC40A00382510 /* findAllFiles.m in Sources */,
-				DF8386731A6FC3E100382510 /* SwiftPlaygroundConverter.swift in Sources */,
-				DF8386811A6FC42000382510 /* NSView+Dumping.m in Sources */,
-				DF83867D1A6FC40A00382510 /* convert.swift in Sources */,
+				DF2467221A71FB2A0056190C /* XCSubProjectDefinition.m in Sources */,
+				DF2467151A71FB2A0056190C /* XCKeyBuilder.m in Sources */,
+				DF2467201A71FB2A0056190C /* XCSourceFile.m in Sources */,
+				DF2466E51A71FB040056190C /* NSView+Dumping.m in Sources */,
+				DF2467191A71FB2A0056190C /* XCFileOperationQueue.m in Sources */,
+				DF24671C1A71FB2A0056190C /* XcodeMemberType.m in Sources */,
+				DF2467181A71FB2A0056190C /* XCClassDefinition.m in Sources */,
+				DF24671E1A71FB2A0056190C /* XCProject+SubProject.m in Sources */,
+				DF2466DC1A71FA7B0056190C /* SwiftPlaygroundConverter.swift in Sources */,
+				DF2467211A71FB2A0056190C /* XCSourceFileDefinition.m in Sources */,
+				DF2467241A71FB2A0056190C /* XCXibDefinition.m in Sources */,
+				DF2467161A71FB2A0056190C /* XCAbstractDefinition.m in Sources */,
+				DF24671F1A71FB2A0056190C /* XCProject.m in Sources */,
+				DF2467171A71FB2A0056190C /* XCBuildConfiguration.m in Sources */,
+				DF24671B1A71FB2A0056190C /* XCGroup.m in Sources */,
+				DF2466EA1A71FB1C0056190C /* findAllFiles.m in Sources */,
+				DF24671A1A71FB2A0056190C /* XCFrameworkDefinition.m in Sources */,
+				DF24671D1A71FB2A0056190C /* XcodeSourceFileType.m in Sources */,
+				DF2466E91A71FB1C0056190C /* convert.swift in Sources */,
+				DF2467231A71FB2A0056190C /* XCTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF8386741A6FC3E100382510 /* Debug */ = {
+		DF2466DD1A71FA7B0056190C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		DF8386751A6FC3E100382510 /* Release */ = {
+		DF2466DE1A71FA7B0056190C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +333,7 @@
 			};
 			name = Release;
 		};
-		DF8386771A6FC3E100382510 /* Debug */ = {
+		DF2466E01A71FA7B0056190C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -244,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		DF8386781A6FC3E100382510 /* Release */ = {
+		DF2466E11A71FA7B0056190C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -265,25 +373,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF8386671A6FC3E100382510 /* Build configuration list for PBXProject "SwiftPlaygroundConverter" */ = {
+		DF2466D01A71FA7B0056190C /* Build configuration list for PBXProject "SwiftPlaygroundConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF8386741A6FC3E100382510 /* Debug */,
-				DF8386751A6FC3E100382510 /* Release */,
+				DF2466DD1A71FA7B0056190C /* Debug */,
+				DF2466DE1A71FA7B0056190C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF8386761A6FC3E100382510 /* Build configuration list for PBXNativeTarget "SwiftPlaygroundConverter" */ = {
+		DF2466DF1A71FA7B0056190C /* Build configuration list for PBXNativeTarget "SwiftPlaygroundConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF8386771A6FC3E100382510 /* Debug */,
-				DF8386781A6FC3E100382510 /* Release */,
+				DF2466E01A71FA7B0056190C /* Debug */,
+				DF2466E11A71FA7B0056190C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF8386641A6FC3E100382510 /* Project object */;
+	rootObject = DF2466CD1A71FA7B0056190C /* Project object */;
 }
